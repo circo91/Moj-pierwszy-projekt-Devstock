@@ -5,8 +5,9 @@ body {
 }
 
 .container {
-width: 1080px;
-margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo {
@@ -17,6 +18,24 @@ margin: 0 auto;
   box-shadow: 0px 0px 7px rgba(100, 96, 106, 0.2);
   border-radius: 7px;
   width: 1080px;
+  display: flex;
+  flex-direction: row;
+  }
+
+  .input {
+    position: relative;
+  }
+  
+  #first-name:focus + label {
+    position: absolute;
+    left: 10px;
+    top: -8px;
+    background-color: #fff;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
   }
 
   .sign-in {
