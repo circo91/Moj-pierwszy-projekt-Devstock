@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
     <title>TrenujemyOnline</title>
 </head>
 <body>
@@ -20,34 +20,41 @@
         <!--login-section  -->
         <div class="login-section">
            <div class="login-form">
-                <h1>Zarejestruj się jako trener</h1>
-                <button>Rejestracja przez Facebook</button>
-                <button>Rejestracja przez Instagram</button>
+                <h1 class="titlle">Zarejestruj się jako trener</h1>
+                <button class="sign-in"><img class="facebook" src="img/facebook.png"/>
+                    <span class="sign-in-span">Rejestracja przez Facebook</span></button>
+                <button class="sign-in"><img class="facebook" src="img/instagram.png"/>Rejestracja przez Instagram</button>
                 <div class="tex-divider">
                     <div class="divider"></div>
                     <span>Lub za pomocą maila</span>
                     <div class="divider"></div>
                 </div>
-                <div class="input">
-                    <input id="first-name" type="text">
-                    <label for="first-name">First name</label>
+                <form class="input">
+                    <div class="name">
+                        <input id="first-name" type="text">
+                        <label for="first-name">First name</label>
+                        <input type="text">
+                        <label>Last name</label>
+                    </div>
+                    <input type="email">
+                    <label>Email</label>
+                    <input type="password">
+                    <label>Password</label>
+                    <div class="checkbox-terms">
+                        <input type="checkbox">
+                        <label>I have read the 
+                            <a href="Terms & Conditions">Terms & Conditions</a>
+                        </label>
+                    </form>
                 </div>
-               
-                <input type="text">
-                <input type="email">
-                <input type="password">
-                <input type="checkbox">
-                <label>I have read the 
-                    <a href="Terms & Conditions">Terms & Conditions</a>
-                </label>
-                <button class="sign-in">Zarejestruj się za darmo</button>
+                <button type="submit" class="sign-in-free">Zarejestruj się za darmo</button>
                 <div class="divider"></div>
                 <span class="log-in">Masz już konto? 
                     <a href="login" class="log-in">Zaloguj się</a>
                 </span>
             </div>       
            <div class="image">
-            <img class="login-img" src="img/login.png" alt="Zdjęcie login" />
+            <img class="login-img" src="img/login.png" alt="Zdjęcie login" height="790px" width="496px"/>
 
            </div>
         
