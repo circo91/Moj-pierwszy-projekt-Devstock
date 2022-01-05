@@ -21,34 +21,46 @@
         <div class="login-section">
            <div class="login-form">
                 <h1 class="titlle">Zarejestruj się jako trener</h1>
-                <button class="sign-in"><img class="facebook" src="img/facebook.png"/>
-                    <span class="sign-in-span">Rejestracja przez Facebook</span></button>
-                <button class="sign-in"><img class="facebook" src="img/instagram.png"/>Rejestracja przez Instagram</button>
-                <div class="tex-divider">
-                    <div class="divider"></div>
-                    <span>Lub za pomocą maila</span>
-                    <div class="divider"></div>
+                <div class="button">
+                    <button class="sign-in"><img class="facebook" src="img/facebook.png"/>
+                        <span>Rejestracja przez Facebook</span></button>
+                    <button class="sign-in"><img class="facebook" src="img/instagram.png"/>
+                        <span>Rejestracja przez Instagram</span>
+                </button>
                 </div>
-                <form class="input">
+                <div class="text-divider">
+                    <div class="divider"><hr></div>
+                    <span class="span">Lub za pomocą maila</span>
+                    <div class="divider"><hr></div>
+                </div>
+                <div class="input-group">
                     <div class="name">
-                        <input id="first-name" type="text">
-                        <label for="first-name">First name</label>
-                        <input type="text">
-                        <label>Last name</label>
+                       <div class="input-in"> 
+                        <input type="text" >
+                        <label class="label">First name</label>
+                        </div>
+                        <div class="input-in">
+                        <input type="text" >
+                        <label class="label">Last name</label>
+                       </div> 
+                    </div> 
+                    <div class="input-in">
+                        <input type="email" >
+                        <label class="label">Email</label>
                     </div>
-                    <input type="email">
-                    <label>Email</label>
-                    <input type="password">
-                    <label>Password</label>
+                    <div class="input-in">
+                        <input type="password">
+                        <label class="label">Password</label>
+                    </div>
                     <div class="checkbox-terms">
                         <input type="checkbox">
                         <label>I have read the 
                             <a href="Terms & Conditions">Terms & Conditions</a>
                         </label>
-                    </form>
+                    </div>
                 </div>
                 <button type="submit" class="sign-in-free">Zarejestruj się za darmo</button>
-                <div class="divider"></div>
+                <div><hr></div>
                 <span class="log-in">Masz już konto? 
                     <a href="login" class="log-in">Zaloguj się</a>
                 </span>

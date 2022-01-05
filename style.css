@@ -36,24 +36,75 @@ body {
   line-height: 28px;
   padding-top: 18px;
 }
+.button {
+  display: flex;
+  flex-direction: column;
+  font-family: Rubik;
+}
 
 .sign-in {
-  font-size: 14px;
-  line-height: 17px;
-  font-weight: 500;
   border: 1.5px solid #413fb5;
   box-sizing: border-box;
   border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  font-style: normal;
+   font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
 }
+
+
+.text-divider {
+    display: flex;
+    justify-content: space-around;
+    padding: 32px 0px;
+}
+.span {
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  }
+
+.divider {
+  width: 30%;
+}
+
 
 .facebook {
   width: 27px;
   height: 27px;
+  padding-right: 24px;
 }
-.input {
+.input-group {
   display: flex;
   flex-direction: column;
+  align-content: space-between;
 }
+
+/* inputy */
+.input-in {
+            padding: 10px;
+            border: 2px solid;
+            margin: 10px;
+        }
+    
+        .input-in>label {
+            padding-left: 5px;
+            padding-right: 5px;
+            position: relative;
+            top: -20px;
+            left: 20px;
+            background-color: white;
+        }
+    
+        .input-in>input {
+            border: none;
+        }
 
 .name {
   position: relative;
