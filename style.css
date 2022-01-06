@@ -39,8 +39,7 @@ body {
 .button {
   display: flex;
   flex-direction: column;
-  font-family: Rubik;
-}
+  }
 
 .sign-in {
   border: 1.5px solid #413fb5;
@@ -50,10 +49,12 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 16px;
-  font-style: normal;
-   font-weight: 500;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 17px;
+  background-color: white;
+  padding: 10px 0;
+  font-family: "rubik"
+;
 }
 
 
@@ -120,6 +121,7 @@ body {
 
 .sign-in-free {
   background-color: #413fb5;
+  font-family: "Rubik", sans-serif;
 }
 .log-in {
   color: #64606a;
