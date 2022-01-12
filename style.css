@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  font-family: "Rubik", sans-serif;
+  font-family: Rubik, sans-serif;
 }
 
 .container {
@@ -27,9 +27,9 @@ body {
 .login-form {
   display: flex;
   flex-direction: column;
-  margin-left: 68.5px;
+  padding: 0 80px;
   width: 420px;
-}
+  }
 .titlle {
   font-weight: 500;
   font-size: 24px;
@@ -39,7 +39,7 @@ body {
 .button {
   display: flex;
   flex-direction: column;
-  }
+}
 
 .sign-in {
   border: 1.5px solid #413fb5;
@@ -49,32 +49,28 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 16px;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 14px;
   background-color: white;
   padding: 10px 0;
-  font-family: "rubik"
-;
+  font-family: "rubik";
 }
-
 
 .text-divider {
-    display: flex;
-    justify-content: space-around;
-    padding: 32px 0px;
+  display: flex;
+  justify-content: space-around;
+  padding: 32px 0px;
 }
 .span {
-
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 23px;
-  }
-
-.divider {
-  width: 30%;
 }
 
+.divider {
+  width: 25%;
+}
 
 .facebook {
   width: 27px;
@@ -86,48 +82,59 @@ body {
   flex-direction: column;
   align-content: space-between;
 }
-
-/* inputy */
-.input-in {
-            padding: 10px;
-            border: 2px solid;
-            margin: 10px;
-        }
-    
-        .input-in>label {
-            padding-left: 5px;
-            padding-right: 5px;
-            position: relative;
-            top: -20px;
-            left: 20px;
-            background-color: white;
-        }
-    
-        .input-in>input {
-            border: none;
-        }
-
 .name {
   position: relative;
   display: flex;
+  justify-content: space-between;
+}
+/* inputy */
+
+.input-in {
+  position: relative;
 }
 
-#first-name:focus + label {
+.input-in input {
+  border: 1px solid #EDEBF0;
+  border-radius: 7px;
+  height: 50px;
+  margin: 10px 0;
+  width: 100%;
+  font-size: 15px;
+}
+
+.input-in label {
   position: absolute;
   left: 10px;
-  top: -8px;
-  background-color: #fff;
+  top: 4px;
+  padding: 0 5px;
+  background-color: white;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 .sign-in-free {
+  border-radius: 7px;
+  height: 50px;
+  width: 420px;
+  margin-top: 24px;
   background-color: #413fb5;
   font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+}
+
+
+.hr {
+  margin: 14px 0;
+  background: #grey;
+
 }
 .log-in {
   color: #64606a;
 }
 
-.loigin-img {
-  width: 496px;
-  height: 790px;
+.login-img {
+  width: 100%;
+  height: 100%;
 }
