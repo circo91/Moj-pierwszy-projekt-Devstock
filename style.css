@@ -123,12 +123,9 @@ body {
   font-size: 18px;
   color: white;
 }
-
-
 .hr {
   margin: 14px 0;
-  background: #grey;
-
+  width: 100%;
 }
 .log-in {
   color: #64606a;
